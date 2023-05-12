@@ -1,15 +1,16 @@
 # See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
 
 # dependencies
-/node_modules
-/.pnp
+/tiktok-auth-frontend/node_modules
+
+/tiktok-auth-frontend/.pnp
 .pnp.js
 
 # testing
-/coverage
+/tiktok-auth-frontend/coverage
 
 # production
-/build
+/tiktok-auth-frontend/build
 
 # misc
 .DS_Store
@@ -21,3 +22,55 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+
+# C extensions
+*.so
+
+# Distribution / packaging
+/tiktok-auth-backend/bin/
+/tiktok-auth-backend/build/
+/tiktok-auth-backend/develop-eggs/
+/tiktok-auth-backend/dist/
+/tiktok-auth-backend/eggs/
+/tiktok-auth-backend/lib/
+/tiktok-auth-backend/lib64/
+/tiktok-auth-backend/parts/
+/tiktok-auth-backend/sdist/
+/tiktok-auth-backend/var/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+/tiktok-auth-backend/.tox/
+.coverage
+.cache
+nosetests.xml
+coverage.xml
+
+# Translations
+*.mo
+
+# Mr Developer
+.mr.developer.cfg
+.project
+.pydevproject
+
+# Rope
+.ropeproject
+
+# Django stuff:
+*.log
+*.pot
+
+# Sphinx documentation
+/tiktok-auth-backend/docs/_build/
