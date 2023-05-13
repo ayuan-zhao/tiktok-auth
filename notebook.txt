@@ -1,0 +1,6 @@
+create table login_user(
+user_id INTEGER PRIMARY KEY AUTOINCREMENT,
+email text not null,
+password text not null);
+
+insert into login_user (email, password) values('xyz@gmail.com','XYZ123abc')
