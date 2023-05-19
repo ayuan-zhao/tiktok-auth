@@ -3,9 +3,8 @@ from flask_sqlalchemy import SQLAlchemy
 
 app = Flask(__name__)
 app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///users.db'  # 使用 SQLite 数据库
+
 db = SQLAlchemy(app)
-
-
 
 class User(db.Model):
     id = db.Column(db.Integer, primary_key=True)

@@ -4,3 +4,21 @@ email text not null,
 password text not null);
 
 insert into login_user (email, password) values('xyz@gmail.com','XYZ123abc')
+
+SELECT name, sql FROM sqlite_master WHERE type='table';
+
+login_user|
+
+CREATE TABLE login_user(
+user_id INTEGER PRIMARY KEY AUTOINCREMENT,
+email text not null,
+password text not null)
+
+sqlite_sequence|CREATE TABLE sqlite_sequence(name,seq)
+
+1. create more tables in the DB.
+2. SELECT some data from tables
+3 insert some data from tables
+4. updata some data from tables
+5 delete from tables
+6. do 2-5 by python
